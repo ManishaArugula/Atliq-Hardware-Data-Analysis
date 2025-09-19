@@ -1,5 +1,7 @@
 # 🛠 Atliqe Hardware – SQL Portfolio Project
 
+AtliQ Hardware, an Indian computer hardware company, supplies computer hardware and peripherals to many of its clients. These reports lack a factual basis and fail to provide a complete picture of the business. To address this, the project aims to develop a sales insights dashboard using Power BI. This tool will enable the sales director to access clear, data-driven insights daily, empowering him to make informed decisions and improve the company's sales decline.
+
 This repository contains a portfolio of **SQL queries** developed using **MySQL Server** to solve real-world business data analysis problems. The project is based on the **Atliqe Hardware** dataset and is organized into **Intermediate** and **Advanced SQL** sections, covering domains such as **customer behavior, sales performance, profitability, and forecasting**.  
 
 ---
