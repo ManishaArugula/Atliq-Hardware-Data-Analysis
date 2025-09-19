@@ -72,3 +72,97 @@ This repository contains a portfolio of **SQL queries** developed using **MySQL 
 - **📉 Channel Optimization:** Distribution and retail channels need better pricing/discount strategies  
 - **🧑‍💼 Customer Strategy:** Focus on top customers for loyalty and engagement programs  
 
+# Atliq Hardware Power BI Dashboard
+
+This project analyzes the **sales, cost, and profitability performance** of Atliq Hardware using **Power BI** with data sourced from a **MySQL database**. It provides a clear view of customer distribution, regional sales, product profitability, and sales channels.
+
+---
+
+## 🔹 Project Workflow
+
+1. **Data Extraction**
+
+   * Connected Power BI to MySQL server to import raw sales and product tables.
+
+2. **Data Transformation**
+
+   * Used Power Query to clean, merge, and transform data.
+   * Built a **flat file model** for better visualization and performance.
+
+3. **Data Modeling**
+
+   * Created custom columns and DAX measures for:
+
+     * Total Sales
+     * Profit
+     * Manufacturing Cost
+     * Revenue Growth
+
+4. **Visualization**
+
+   * Designed **two dashboards**:
+
+     * **Executive Overview Dashboard** – KPIs and high-level metrics.
+     * **Drilldown Dashboard** – Detailed insights by customer, region, and product.
+   * Visualization types: bar/column charts, line charts, doughnut, KPIs, cards, matrix tables with conditional formatting, sparklines, and navigation buttons.
+
+---
+
+## 🔹 Key Insights
+
+* **Sales & Profitability**
+
+  * Total quantity sold: **71M units**.
+  * Total sales revenue: **\$1.7B**.
+  * Sales exceed manufacturing cost by **145.5%**.
+  * Total profit: **\$1.5B**.
+
+* **Products**
+
+  * Highest manufacturing cost: **Desktops (\~£400/unit)**.
+  * Lowest cost & price: **Accessories/Peripherals (£14–16/unit)**.
+  * Most sold units: **Accessories (45M)**, **Storage (12M)**, **Peripherals (8M)**.
+  * Least sold: **Desktops**.
+  * Profit leaders: **Notebooks & Accessories**; lowest profit from **Desktops (\~\$200–300M)**.
+
+* **Customers & Channels**
+
+  * 70% sales from **E-commerce**, 30% from **Brick & Mortar**.
+  * Key customers: **Amazon, Atiq Exclusive, Atliq E-Store**.
+  * Revenue by channel: **Retail (\$1.6B)**, Direct/Distributor (\$0.25–0.35B)\*\*.
+
+* **Regions**
+
+  * **APAC region leads with \$1,211M**, followed by **EU with \$505M**.
+
+---
+
+## 🔹 Tools & Technologies
+
+* **Power BI** – Data visualization & dashboarding
+* **Power Query** – Data transformation
+* **MySQL** – Data source
+* **DAX** – Calculations & measures
+
+---
+
+## 📊 Dashboard Snapshots
+
+<img width="600" height="600" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/c12f6c72-e02a-4f56-9706-b373f58d5142" />
+
+<img width="600" height="600" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/80a55c71-a54c-446b-8140-3697e68d37cd" />
+
+<img width="600" height="600" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/2ab1e770-eab2-40d1-ae04-caa756e6118c" />
+
+
+---
+
+## 🚀 Learnings
+
+* End-to-end BI workflow: from data extraction to storytelling.
+* Hands-on practice in **data modeling, DAX, and performance optimization**.
+* Building interactive, drilldown-ready dashboards for business insights.
+
+---
+
+
